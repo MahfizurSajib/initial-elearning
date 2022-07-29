@@ -9,7 +9,7 @@ body{
     font-size: 18px;
 }
 .slide-item-1{
-    background-image: url(/images/cover/cover-1.jpg);
+    background-image: url(../images/cover/cover-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,5 +27,5 @@ body{
 }
 .slide-overlay{
     background: rgba(29, 29, 29, 0.7);
-    padding: 140px 0;
+    padding: 142px 0;
 }
