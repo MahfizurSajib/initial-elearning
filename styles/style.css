@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.main-menu ul li{
+    font-size: 18px;
+}
+.slide-item-1{
+    background-image: url(/images/cover/cover-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-description h2{
+    font-size: 65px;
+    line-height: 85px;
+}
+.carousel-description p{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.slide-overlay{
+    background: rgba(29, 29, 29, 0.7);
+    padding: 140px 0;
+}
