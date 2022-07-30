@@ -92,5 +92,9 @@ body {
 .student-section{
     margin: 130px auto;
 }
+.middle-bar{
+    line-height: 40px;
+    margin: 0 !important;
+}
 
 
