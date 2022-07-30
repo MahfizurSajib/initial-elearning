@@ -15,7 +15,7 @@
   <header class="container">
     <nav class="navbar navbar-expand-lg bg-white my-5">
       <div class="container">
-        <a class="navbar-brand" href="index.html">E-learning</a>
+        <a class="navbar-brand fw-semibold" href="index.html">E-learning</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -23,26 +23,24 @@
         <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item mx-4 text-light">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item mx-4 text-light">
-              <a class="nav-link" href="#">Courses</a>
+              <a class="nav-link" href="#course">Courses</a>
             </li>
             <li class="nav-item mx-4 text-light">
-              <a class="nav-link" href="#">Deals</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item mx-4 text-light">
-              <a class="nav-link" href="#">Success</a>
+              <a class="nav-link" href="#profile">Students</a>
             </li>
             <li class="nav-item mx-4 text-light">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#register">Register</a>
             </li>
-            <li class="nav-item mx-4 text-light">
-              <a class="nav-link" href="#">FAQ</a>
-            </li>
+            
           </ul>
           <div class="d-flex">
-            <button type="button" class="btn btn-outline-primary btn-lg px-4">Register</button>
+            <button type="button" class="btn btn-outline-primary btn-lg px-4">Join Us</button>
           </div>
         </div>
       </div>
@@ -100,7 +98,7 @@
   <!-- Carousel Section End -->
 
   <!-- course section Start -->
-  <section class="course-section container">
+  <section class="course-section container" id="course">
     <div class="course-heading w-50 my-5 mx-auto text-center ">
       <h2 class="global-heading">Discover Our Popular Courses</h2>
       <p class="global-description">It is a long established fact that a reader will be distracted by the readable
@@ -218,7 +216,7 @@
   <!-- course section end-->
 
   <!-- Institute intro section End -->
-  <section class="container institute">
+  <section class="container institute" id="about">
     <div class="row">
       <div class="col-lg-5">
         <img src="images/working.png" alt="" class="img-fluid">
@@ -267,12 +265,13 @@
     </div>
   </section>
 
-  <section class="container register-section bg-primary rounded">
+  <section class="container register-section bg-primary rounded" id="register">
     <div class="row">
       <div class="col-lg-6">
         <div>
           <h2 class="global-heading text-white">Ready to join?</h2>
-          <p class="global-description text-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <p class="global-description text-white">It is a long established fact that a reader will be distracted by the
+            readable content of a page when looking at its layout.</p>
         </div>
 
 
@@ -283,60 +282,73 @@
     </div>
 
   </section>
-<!--  Register Section Ends-->
+  <!--  Register Section Ends-->
 
 
-  <section class="student-section container">
+  <section class="student-section container" id="profile">
     <div class="student-intro w-50">
       <h2 class="global-heading">Meet Our Successfull Students</h2>
-      <p class="global-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+      <p class="global-description mb-5">It is a long established fact that a reader will be distracted by the readable
+        content of a page when looking at its layout.</p>
     </div>
     <div class="students">
-      <div class="card">
-        <img class="card-img-top" src="images/student/student-1.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="row">
+        
+       
+        <div class="card col-md-3 border-0">
+          <div class="student-info">
+            <img class="card-img-top img-fluid" src="images/student/student-1.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title fw-semibold">Awlad Hossain</h5>
+              <p class="card-text global-description">UI/UX Designer</p>
+             
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="images/student/student-1.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card col-md-3 border-0">
+          <div class="student-info">
+            <img class="card-img-top img-fluid" src="images/student/student-2.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title fw-semibold">Imran Hossain</h5>
+              <p class="card-text global-description">Motion Design</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="images/student/student-1.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card col-md-3 border-0">
+          <div class="student-info">
+            <img class="card-img-top img-fluid" src="images/student/student-3.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title fw-semibold">Card title</h5>
+              <p class="card-text global-description">Graphic Designer</p>
+              
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="images/student/student-1.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card col-md-3 border-0">
+          <div class="student-info">
+            <img class="card-img-top img-fluid" src="images/student/student-4.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title fw-semibold">Nishi Akter</h5>
+              <p class="card-text global-description">Web Developer</p>
+              
+            </div>
+          </div>
         </div>
+      
       </div>
     </div>
 
   </section>
 
-<!-- Footer started -->
+  <!-- Footer started -->
   <footer class="footer-section bg-dark p-5">
     <div class="footer-contents w-25 text-center m-auto">
       <h2 class="global-heading text-white">E-Learning</h2>
       <p class="global-description text-white">Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</p>
       <ul class="navbar-nav m-auto mb-2 d-flex flex-row justify-content-center">
         <li class="nav-item mx-4 text-light">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+
         </li>
         <li class="nav-item mx-4 text-light middle-bar">
           |
@@ -344,7 +356,7 @@
         <li class="nav-item mx-4 text-light">
           <a class="nav-link" href="#">Courses</a>
         </li>
-        
+
       </ul>
     </div>
 
