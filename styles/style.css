@@ -77,3 +77,20 @@ body {
     line-height: 38px;
     color: #4A4A4A;
 }
+
+/* Institute Section Style */
+
+.institute{
+    background: #F4FAFD;
+    margin:130px auto;
+    border-radius: 5px;
+   
+}
+.register-section{
+    padding: 80px 100px;
+}
+.student-section{
+    margin: 130px auto;
+}
+
+
