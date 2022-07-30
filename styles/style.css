@@ -1,31 +1,79 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
-.main-menu ul li{
+
+.global-heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1D1D1D;
+}
+
+.global-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
+
+.main-menu ul li {
     font-size: 18px;
 }
-.slide-item-1{
+
+.slide-item-1 {
     background-image: url(../images/cover/cover-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.carousel-description h2{
+.slide-item-2 {
+    background-image: url(../images/cover/cover-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide-item-3 {
+    background-image: url(../images/cover/cover-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-description h2 {
     font-size: 65px;
     line-height: 85px;
 }
-.carousel-description p{
+
+.carousel-description p {
     margin-bottom: 30px;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
 }
-.slide-overlay{
+
+.slide-overlay {
     background: rgba(29, 29, 29, 0.7);
-    padding: 142px 0;
+    padding: 130px 0;
+}
+
+/* Course Area styling */
+
+.course-content {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+
+.course-info h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    color: #4A4A4A;
 }
